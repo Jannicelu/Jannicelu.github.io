@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&family=Roboto&display=swap');
+
+h1{
+	font-family: Roboto, serif;
+}
+
+p{
+	font-family: Piazzolla, sans-serif;
+}

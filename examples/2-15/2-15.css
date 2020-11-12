@@ -29,6 +29,7 @@ nav{
 nav > div{
 	padding: 1vh 0;
 	text-align: center;
+	display: inline-block;
 }
 nav>div:hover{
 	background-color: white;

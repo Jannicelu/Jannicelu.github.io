@@ -47,28 +47,3 @@ nav>div:hover{
 	background-color: white;
 	border-bottom: 2px solid black;
 }
-
-body>img {
-	max-height: 100px;
-	max-width:100px;
-	margin-left: 25%;
-	padding: 5px 5px;
-	position: relative; right: 500px;
-}
-
-body>div#container2{
-	height: 60vh;
-	width:60%;
-	margin-left: 25%;
-	background-color: #fffaf0;
-	padding: 5px 5px;
-}
-
-body>div#container3{
-	height: 60vh;
-	width:60%;
-	margin-left: 25%;
-	background-color: #f0f8ff;
-	padding: 5px 5px;
-}
-

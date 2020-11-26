@@ -14,7 +14,7 @@ html{
 header{
 	width: 100%;
 	height:40%;
-	background-color: #faf0e6;
+	background-color: #5f9ea0;
 	text-align: center;
 	display: inline-block;
 
@@ -27,12 +27,11 @@ nav{
 	height: 60px;
 	font-family: sans-serif;
 	display: inline-block;
-	background-color: #faf0e6;
+	background-color: #5f9ea0;
 	color: black;
 
 
 }
-
 nav > div {
 	padding: 1px 1px;
 	text-align: center;
@@ -46,3 +45,14 @@ nav > div {
 nav>div:hover{
 	background-color: white;
 	border-bottom: 2px solid black;
+}
+
+body>div#container1{
+	height: 30vh;
+	width: 50%;
+	background-color: #faf0e6;
+	margin-left: 20%;
+	margin-top: 5%;
+	color: #556b2f;
+
+}

@@ -15,9 +15,9 @@ var test1 = 'Value:' + 5 + 10;
 var test2 = 'Value:' + 5 * 10;
 var test3 = 'Value:' + 5 - 10;
 
-//console.log(test1);
-//console.log(test2);
-//console.log(test3);
+console.log(test1);
+console.log(test2);
+console.log(test3);
 
 var numAsNum = 5, numberAsStr = '5';
 

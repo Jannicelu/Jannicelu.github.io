@@ -24,4 +24,4 @@ emptyArray = [];
 
 emptyArray[2] = 1; //avoid skip space  
 
-//console.log(emptyArray);
+console.log(emptyArray);

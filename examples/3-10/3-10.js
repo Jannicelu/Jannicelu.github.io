@@ -6,4 +6,6 @@ window.onload = function () {
 	var idEm = document.getElementById('no6');
 	idEm.innerHTML = 'no6 changed!';
 	idEm.style.color = 'red';
+	idEm.style.backgroundColor = 'black';
+	idEm.style.marginLeft = '5px';
 };

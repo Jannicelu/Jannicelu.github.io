@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 100vw;
+	height: 30px;
+	background-color: grey;
+	font-family: sans-serif;
+	padding: 0 10px;
+}
+
+nav>div{
+	display: inline-block;
+	margin: 0 5px;
+	height: 30px;
+	padding: 0 3px;
+	background-color: red;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: text-top;
+
+	/*沒有針對寬度設定，因為如果文字與padding有所調整，他會隨著裡面字的長度伸縮*/
+}
+
+nav>div:hover{
+	cursor: pointer;
+	background-color: white;
+	color: red;
+}
+
+nav>div>div {
+	display: none;
+	margin:-3px;
+	border: 1px solid red;
+	background-color: white;
+	color: red;
+}
+
+
+/* Pure hovering effect*/
+/*nav>div:hover>div{
+	display: block;
+}*/

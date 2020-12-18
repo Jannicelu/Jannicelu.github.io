@@ -1,0 +1,19 @@
+div{
+	width:100px;
+	height: 100px;
+	background-color: orange;
+	margin:10px;
+}
+
+/*Mobile-first Design*/
+
+@media only screen and (min-width:800px){
+	
+}
+
+@media only screen and (min-width: 1200px){
+	div{
+		width: 100px;
+		height: 100px;
+	}
+}

@@ -14,9 +14,11 @@ html{
 header {
 	font-family: sans-serif;
 	font-size: 200%;
+	font-family: serif;
 	padding: 5vh 10vw 5vh 10vw;
 	text-align: center;
-	background-color: pink;
+	background-color: #faebd7;
+	color: #ffa07a;
 }
 
 nav>div {
@@ -37,6 +39,7 @@ section#A1 {
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
 	background-color: pink;
+	font-family: serif;
 }
 
 section#A2 {
@@ -44,6 +47,7 @@ section#A2 {
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
 	background-color: orange;
+	font-family: serif;
 }
 
 section#A3 {
@@ -51,4 +55,5 @@ section#A3 {
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
 	background-color: pink;
+	font-family: serif;
 }

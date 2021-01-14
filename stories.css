@@ -12,19 +12,18 @@ html{
 }
 
 header {
-	width: 40vw;
-	height: 15vh;
 	font-family: sans-serif;
-	font-size: 200%;
-	padding: 4vw 3vh 3vw 8vh;
-	background-color: pink;
+	font-size: 250%;
+	font-family: serif;
+	padding: 4vh 3vw 3vh 15vw;
+	background-color: #faebd7;
+	color: #ffa07a;
 }
 
 nav {
 	width: 40vw;
 	height: 15vh;
 	position: relative; left: 55vw; bottom:15vh;
-	background-color: pink;
 }
 
 nav>div {
@@ -34,16 +33,16 @@ nav>div {
 	font-size: 100%;
 	text-align: center;
 	position: relative; top:65%; left: 20%;
-	background-color: orange;
 }
 
 nav>div:hover{
-	background-color: white;
+	background-color: #ffa07a;
 }
 
 article>h1 {
 	font-size: 200%;
-	position: relative;left: 40vw;
+	position: relative;left: 43vw;
+	color: #ffa07a;
 }
 
 img#o {
@@ -58,65 +57,12 @@ img#t {
 	position: relative;left: 15vw;
 }
 
-article>section#first {
+article>section {
+	width: 90vw;
 	line-height: 4vh;
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
-	background-color: pink;
-}
-
-article>section#second {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: orange;
-}
-
-article>section#third {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: pink;
-}
-
-article>section#fourth {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: pink;
-}
-
-article>section#fiveth {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: orange;
-}
-
-article>section#sixth {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: pink;
-}
-
-article>section#seventh {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: orange;
-}
-
-article>section#eighth {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: pink;
-}
-
-article>section#ninth {
-	line-height: 4vh;
-	text-align: justify;
-	padding: 3vh 6vw 3vh 6vw;
-	background-color: orange;
+	margin:5vh;
+	background-color:#faebd7;
+	position: relative; left: 4vw;
 }

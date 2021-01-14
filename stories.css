@@ -40,3 +40,83 @@ nav>div {
 nav>div:hover{
 	background-color: white;
 }
+
+article>h1 {
+	font-size: 200%;
+	position: relative;left: 40vw;
+}
+
+img#o {
+	max-height: 60vh;
+	max-width: 50vw;
+	position: relative;left: 30vw;
+}
+
+img#t {
+	max-height: 60vh;
+	max-width: 50vw;
+	position: relative;left: 15vw;
+}
+
+article>section#first {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: pink;
+}
+
+article>section#second {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: orange;
+}
+
+article>section#third {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: pink;
+}
+
+article>section#fourth {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: pink;
+}
+
+article>section#fiveth {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: orange;
+}
+
+article>section#sixth {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: pink;
+}
+
+article>section#seventh {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: orange;
+}
+
+article>section#eighth {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: pink;
+}
+
+article>section#ninth {
+	line-height: 4vh;
+	text-align: justify;
+	padding: 3vh 6vw 3vh 6vw;
+	background-color: orange;
+}

@@ -9,6 +9,7 @@ html{
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
+	background-color:#faf0e6;
 }
 
 header {
@@ -17,31 +18,37 @@ header {
 	font-family: serif;
 	padding: 5vh 10vw 5vh 10vw;
 	text-align: center;
-	background-color: pink;
+	color: #778899;
 }
 
 nav>div {
 	width: 10vw;
 	height: 8vh;
+	line-height: 8vh;
 	font-size: 125%;
 	font-family: serif;
 	text-align: center;
 	color: #778899;
 }
 
+nav>div:hover{
+	background-color: #778899;
+}
+
 article {
-	font-size: 120%;
-	font-family: sans-serif;
+	font-size: 130%;
+	font-family: serif;
 	width: 70vw;
-	background-color: orange;
 	line-height: 4vh;
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
-	position: relative; bottom:15vh; left: 15vw;
+	color: #556b2f;
+	position: relative; bottom:15vh; left: 10vw;
 }
 
 h1#theme {
 	position: relative; bottom:10vh; left: 15vw;
+	color: #778899;
 }
 
 img {
@@ -59,10 +66,12 @@ img#forest {
 h1 {
 	font-family: serif;
 	position: relative;bottom:7vh; left: 20vw;
+	color: #778899;
 }
 
 h1#secondbook {
 	font-family: serif;
-	position: relative;bottom:21vh; left: 35vw;
+	position: relative;bottom:21vh; left: 38vw;
+	color: #778899;
 }
 

@@ -12,33 +12,31 @@ html{
 	background-color:#faf0e6;
 }
 
+a {
+	color: #778899;
+}
+
 header {
 	font-family: sans-serif;
 	font-size: 200%;
 	font-family: serif;
 	padding: 5vh 10vw 5vh 10vw;
 	text-align: center;
-	color: #708090;
 }
 
-nav>div {
-	width: 10vw;
-	height: 8vh;
-	line-height: 8vh;
-	font-size: 125%;
-	font-family: serif;
-	text-align: center;
-	color: #708090;
-}
-
-nav>div:hover{
-	background-color: #708090;
+header:hover{
+	background-color: #8fbc8f;
 }
 
 img {
 	max-height: 100vh;
 	max-width: 90vw;
-	position: relative; left: 35vw;
+	position: relative; top: 5vh; left: 30vw;
+}
+
+h1#headline {
+	color: #556b2f;
+	position: relative; top: 2vh; left: 5vw; 
 }
 
 section#A1 {
@@ -48,6 +46,7 @@ section#A1 {
 	background-color: #faf0e6;
 	color: #556b2f;
 	font-family: serif;
+	position: relative; top: 6vh;
 }
 
 section#A2 {
@@ -57,6 +56,7 @@ section#A2 {
 	background-color: #ffe4b5;
 	color: #556b2f;
 	font-family: serif;
+	position: relative; top: 6vh;
 }
 
 section#A3 {
@@ -66,4 +66,5 @@ section#A3 {
 	background-color: #faf0e6;
 	color: #556b2f;
 	font-family: serif;
+	position: relative; top: 6vh;
 }

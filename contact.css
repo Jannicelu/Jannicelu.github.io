@@ -40,5 +40,16 @@ nav>div:hover{
 }
 
 h1 {
-	color:  #ffa07a;
+	color: #ffa07a;
+	position: relative; left: 30vw;
+}
+
+article {
+	width: 30vw;
+	height: 20vh;
+	font-size: 125%;
+	margin-top: 3vh;
+	text-align: center;
+	color: #ffa07a;
+	position: relative; left: 30vw;
 }

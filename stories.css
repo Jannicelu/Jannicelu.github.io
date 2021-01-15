@@ -41,7 +41,7 @@ nav>div:hover{
 
 article>h1 {
 	font-size: 200%;
-	position: relative;left: 43vw;
+	position: relative;left: 42vw;
 	color: #ffa07a;
 }
 
@@ -63,6 +63,8 @@ article>section {
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
 	margin:5vh;
-	background-color:#faebd7;
-	position: relative; left: 4vw;
+	color: #008080;
+	background-color:#faf0e6;
+	position: relative; left: 2vw;
 }
+

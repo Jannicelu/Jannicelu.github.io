@@ -12,27 +12,20 @@ html{
 	background-color:#faf0e6;
 }
 
+a {
+	color: #778899;
+}
+
 header {
 	font-family: sans-serif;
 	font-size: 200%;
 	font-family: serif;
 	padding: 5vh 10vw 5vh 10vw;
 	text-align: center;
-	color: #778899;
 }
 
-nav>div {
-	width: 10vw;
-	height: 8vh;
-	line-height: 8vh;
-	font-size: 125%;
-	font-family: serif;
-	text-align: center;
-	color: #778899;
-}
-
-nav>div:hover{
-	background-color: #778899;
+header:hover{
+	background-color: #8fbc8f;
 }
 
 article {
@@ -43,35 +36,35 @@ article {
 	text-align: justify;
 	padding: 3vh 6vw 3vh 6vw;
 	color: #556b2f;
-	position: relative; bottom:15vh; left: 10vw;
+	position: relative;  left: 15vw;
 }
 
 h1#theme {
-	position: relative; bottom:10vh; left: 15vw;
+	position: relative; top: 3vh; left: 20vw;
 	color: #778899;
 }
 
 img {
 	max-height: 50vh;
 	max-width: 40vw;
-	position: relative; bottom:7vh; left: 15vw;
+	position: relative; top: 7vh; left: 15vw;
 }
 
 img#forest {
 	max-height: 50vh;
 	max-width: 40vw;
-	position: relative; bottom:7vh; left: 20vw;
+	position: relative; bottom: 7vh; left: 20vw;
 }
 
 h1 {
 	font-family: serif;
-	position: relative;bottom:7vh; left: 20vw;
+	position: relative;top: 7vh; left: 20vw;
 	color: #778899;
 }
 
 h1#secondbook {
 	font-family: serif;
-	position: relative;bottom:21vh; left: 38vw;
+	position: relative; bottom: 10vh; left: 40vw; 
 	color: #778899;
 }
 
